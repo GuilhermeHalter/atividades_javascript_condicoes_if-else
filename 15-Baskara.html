@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baskara</title>
+</head>
+<body>
+    
+<script type="text/javascript">
+ 
+    const A = Number(prompt("informe o valor de A"))
+    const B = Number(prompt("informe o valor de B"))
+    const C = Number(prompt("informe o valor de C"))
+    const delta = B*B - (4*A*C);
+
+    if (A == 0){
+        document.write("É uma equação do primeiro grau");
+    }else if (delta <= 0){
+        document.write("A equação não possui raizes reais");
+    }else if (delta == 0 ){
+        document.write("A equação possiu apenas uma rais real");
+    }else {
+        document.write("A equação tem duas raises reais");
+    }
+
+</script>
+
+</body>
+</html>

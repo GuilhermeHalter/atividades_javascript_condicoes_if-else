@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        const peso = Number(prompt("Digite seu peso"));
+        const altura = Number(prompt("Digite sua altura"));
+        const IMC = peso/altura ** 2;
+
+        if(IMC <= 18.5){
+            document.write("Você esta com Subpeso ", Math.round(IMC) );
+        }else if (IMC <= 25.0){
+            document.write("Você esta com peso normal ", Math.round(IMC));
+        }else if (IMC <= 30.0){
+            document.write("Você esta com sobrepeso ", Math.round(IMC));
+        }else{
+            document.write("Você esta obeso ", Math.round(IMC));
+        }
+
+    </script>
+    
+</body>
+</html>

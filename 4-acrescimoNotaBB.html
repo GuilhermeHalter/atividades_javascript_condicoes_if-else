@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acrescimo Nota BB</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+        const notaLB = Number(prompt("Nota do Little Brother"))
+        const notaBB = Number(prompt("Nota do Big Brother"))
+
+        if (notaLB + notaBB > notaLB){
+            document.write("A nota do little Brother com a ajuda do Big Brother é ", notaLB + ((notaLB + notaBB) / 4))
+        }else{
+            document.write("Não ouve alteração na nota do Little Brother")
+        }
+
+    </script>
+
+</body>
+</html>

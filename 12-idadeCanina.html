@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade Canina</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        const porte = String(prompt("Qual o porte do seu cachorro ?"));
+        const idade = Number(prompt("Qual a idade humana do seu  cachorro?"));
+
+        if (porte == "pequeno porte"){
+            document.write("seu cachorro tem ", Math.round(idade/5), " anos");
+        }else if (porte == "médio porte"){
+            document.write("seu cachorro tem ", Math.round(idade/6), " anos");
+        }else {
+            document.write("seu cachorro tem " , Math.round(idade/7), " anos");
+        }
+        
+    </script>
+    
+</body>
+</html>

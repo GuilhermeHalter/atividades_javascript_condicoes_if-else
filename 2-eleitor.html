@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleitor</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+        const AnoNasc = Number(prompt("Insira o ano que você nasceu"));
+        const AnoAtual = Number(prompt("Insira o ano atual"));
+
+        const idade = (AnoAtual - AnoNasc);
+
+        if (idade < 16) {
+            document.write("Essa pessoa não pode votar ", "ela tem ", idade, " anos");
+        } else {
+            document.write("Essa pessoa pode votar ", "ela tem ", idade, " anos");
+        }
+
+    </script>
+ 
+</body>
+</html>

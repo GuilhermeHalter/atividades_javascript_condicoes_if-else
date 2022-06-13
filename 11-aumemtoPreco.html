@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aumento de preço</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+
+        const preco = Number(prompt("Qual o preço que você vai pagar"));
+
+        if (preco <= 280){
+            document.write("O preço a pagar é ", preco + (preco * (20/100)));
+        } else if (preco <= 700){
+            document.write("O preço a pagar é ", preco + (preco * (15/100)));
+        } else if (preco <= 1500){
+            document.write("O preço a pagar é ", preco + (preco * (10/100)));
+        }else {
+            document.write("O preço a pagar é ", preco + (preco * (5/100)));
+        }
+
+    </script>
+
+</body>
+</html>
